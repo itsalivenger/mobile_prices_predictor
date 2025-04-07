@@ -46,7 +46,7 @@ naive_trainX, naive_testX, naive_trainY, naive_testY = train_test_split(naive_ba
 
 # interface streamlit
 st.title("Mobile Price Classification - Model Comparison")
-st.header(" Model Comparison by Ali Ait Houssa")
+st.subheader("Model Comparison by Ali Ait Houssa")
 
 model_choice = st.selectbox("Choose a model", ["Logistic Regression", "KNN", "Naive Bayes", "Decision Tree", "Random Forest"])
 
